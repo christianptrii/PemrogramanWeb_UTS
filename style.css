@@ -350,6 +350,24 @@ section{
     /* display: flex; */
 }
 
+.card-porto1{
+    /* padding: 35px 35px; */
+    /* background: #3e2d55; */
+    border-radius: 15px;
+    margin: 20px 40px;
+    position: relative;
+    /* overflow: hidden; */
+    /* display: flex; */
+    margin-bottom: 30px;
+}
+
+.card-porto1 img{
+    border: 4px solid #3e2d55;
+    width: 335px;
+    height: auto;
+    border-radius: 20px;
+}
+
 .card-porto i{
     padding-bottom: 30px;
     font-size: 30px;
