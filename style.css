@@ -676,4 +676,149 @@ form{
         width: 70%;
         height: auto;
     }
+
+    .box-skills{
+        text-align: center;
+        align-items: center;
+        margin-top: 45px;
+        width: 100%;
+        background-color: #c575ff;
+        height: 650px;
+        display: grid;
+    }
+
+    .skills{
+        align-items: center;
+        text-align: center; 
+        padding-bottom: 10px;
+    }
+
+    .services{
+        color: #ffffff;
+        /* min-height: 80vh; */
+    }
+    
+ 
+    .all-boxes{
+        margin-top: 20px;
+    }
+    
+    .box{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        min-height: 160px;
+    }
+    
+    .card{
+        height: 100px;
+        width: 335px;
+        padding: 35px 35px;
+        background: #3e2d55;
+        border-radius: 15px;
+        margin: 20px 40px;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+    }
+    
+    .card i{
+        font-size: 30px;
+        display: block;
+        align-items: center;
+    }
+    
+    .card h5{
+        font-size: 20px;
+        padding: 0 8px
+    }
+    
+    .btn-services a{
+        background-color: #a425ff;
+        color: white;
+        width: 150px;
+        border: 3px solid #a425ff;
+        padding: 12px 30px;
+        border-radius: 100px;
+        font-weight: bold;
+        font-size: 15px;
+        transition: .4s;
+        letter-spacing: 1px;
+        text-decoration: none;
+        margin-left: 28%;
+    }
+    
+    .btn-services a:hover{
+        background: #1C1427;
+        border: 3px solid #a425ff;
+    }
+
+    .all-boxes-porto{
+        margin-top: 20px;
+    }
+    
+    .box-porto{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        min-height: 160px;
+    }
+
+    .about{
+        flex-direction: column;
+        align-items:center;
+        text-align: center;
+        justify-content: center;
+        grid-template-columns: 1fr;
+    }
+    
+    .about img{
+        width: 70%;
+        height: auto;
+    }
+    
+    .card-about{
+        font-size: 45px;
+    }
+    
+    .home-text .text-about{
+        font-size: 12px;
+    }
+
+    .card-about i{
+        font-size: 30px;
+        /* margin: 20px 0 15px; */
+        margin-bottom: 20px;
+    }
+    
+    .card-about h5{
+        font-size: 20px;
+        padding: 0 16px
+    }
+    
+    .about-text{
+        font-size: 12px;
+    }
+    
+    .box-about{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        min-height: 60px;
+    }
+    
+    .home-text .mini-about{
+        font-size: 16px;
+        letter-spacing: 4px;
+        font-weight:bolder;
+        color: #a425ff;
+    }
+
+    .box-testimonials{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        /* min-height: 50px; */
+    }
+
 }
